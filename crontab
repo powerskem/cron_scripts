@@ -1,0 +1,10 @@
+# SYSTEM's /etc/crontab
+# use /bin/sh to run commands, overriding the default set by cron
+SHELL=/bin/sh
+
+HOME=/root
+PATH=/usr/local/bin:/usr/bin:/bin:$PATH
+
+# run on weekdays
+0 0 * * 1-5   SYSTEM /cygdrive/c/Users/kpchase/cron_scripts/cron_bkp_to_ext_HD.sh
+
