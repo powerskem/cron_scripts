@@ -22,3 +22,6 @@ echo "* * * * *   SYSTEM touch ~/cron" >> /etc/crontab
 4. debug as needed
 cronevents
 cat /root/cron.log
+
+5. change crontab as needed
+vi /etc/crontab
