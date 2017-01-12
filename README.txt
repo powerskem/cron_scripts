@@ -1,6 +1,6 @@
 This project is for my cron jobs.
 
-Currently running only one job - from SYSTEM's /etc/crontab
+Running jobs from SYSTEM's /etc/crontab
 
 Hat tip: http://stackoverflow.com/questions/707184/how-do-you-run-a-crontab-in-cygwin-on-windows
 
